@@ -1,0 +1,21 @@
+name: Upload Enigma Bash Script
+
+on:
+  push:
+    paths:
+      - 'enigma.sh'
+jobs:
+  upload-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'RafaelKarcz'
+        git config --global user.email 'rafael.karcz@gmail.com'
+        git add enigma.sh
+        git commit -m "Automated commit for Enigma script changes" || echo "No changes to commit"
+        git push --quiet https://${{ secrets.MY_PERSONAL_TOKEN }}@github.com/RafaelKarcz/Enigma.git
