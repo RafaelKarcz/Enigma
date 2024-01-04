@@ -4,7 +4,7 @@ Enigma: File Management and Encryption Script
 Enigma is a Bash script designed for effective file management, offering functionalities to create, read, encrypt, and decrypt files. It balances ease of use with the security of AES-256 encryption.
 
 Features
---------
+========
 
 - **Create Text Files**: Allows users to create files with simple text content.
 - **Read Text Files**: Users can read and display the contents of existing text files.
@@ -13,7 +13,7 @@ Features
 - **Input Validation**: Ensures that file names and messages meet predefined formats for consistency and error mitigation.
 
 Installation
-------------
+============
 
 To use Enigma, first clone the repository to your local machine:
 
@@ -24,7 +24,7 @@ To use Enigma, first clone the repository to your local machine:
 Ensure that Bash and OpenSSL are installed on your system.
 
 Usage
------
+=====
 
 Run the script to access the main menu, which includes the following options:
 
@@ -37,17 +37,17 @@ Run the script to access the main menu, which includes the following options:
 Select an option by entering the corresponding number.
 
 Creating and Reading Files
---------------------------
+==========================
 
 To create a file, you'll be prompted to enter a filename and a message. Filenames are validated against `FILENAME_REGEX`, allowing only letters and dots. Messages must conform to `MESSAGE_REGEX`, permitting uppercase letters and spaces only.
 
 Encrypting and Decrypting Files
--------------------------------
+===============================
 
 The script's encryption and decryption functionalities leverage OpenSSL's AES-256-CBC mode. For encryption, the original file is replaced with an encrypted `.enc` file. During decryption, the `.enc` file is restored to its original format, and the encrypted file is removed.
 
 Error Handling and Validation
------------------------------
+=============================
 
 Enigma includes validation checks for file existence when reading, encrypting, or decrypting files. It also validates user inputs for filenames and messages, providing feedback for invalid entries.
 
