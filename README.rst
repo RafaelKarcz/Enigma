@@ -71,6 +71,6 @@ Support
 For support, please open an issue in the GitHub repository, and I will try to address it as soon as possible.
 
 Conclusion
-----------
+==========
 
 Enigma is a user-friendly and secure tool for managing files. Its straightforward interface, coupled with robust encryption, makes it suitable for those needing a simple solution for file encryption and basic file operations. Have fun with it. Cheers!
