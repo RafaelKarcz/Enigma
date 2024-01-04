@@ -19,7 +19,7 @@ To use Enigma, first clone the repository to your local machine:
 
 .. code-block:: bash
 
-    git clone [repository URL]
+    git clone https://github.com/RafaelKarcz/Enigma.git
 
 Ensure that Bash and OpenSSL are installed on your system.
 
