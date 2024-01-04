@@ -63,7 +63,7 @@ Please note that all contributions to this project should comply with the princi
 License
 =======
 
-The True or False Game is MIT licensed. This means it is free software and comes with no warranty. You can use, modify, and distribute it under the terms of the MIT license. For more details, see the `LICENSE <LICENSE>`_ file.
+Enigma is MIT licensed. This means it is free software and comes with no warranty. You can use, modify, and distribute it under the terms of the MIT license. For more details, see the `LICENSE <LICENSE>`_ file.
 
 Support
 =======
